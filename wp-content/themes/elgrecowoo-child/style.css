@@ -19,3 +19,113 @@
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
+## General Styles
+--------------------------------------------------------------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    background-color: #f8f9fa;
+}
+
+a, a:visited {
+    color: #22516c;
+}
+
+a:hover {
+    color: #213957;
+}
+
+/*--------------------------------------------------------------
+## Header Styles
+--------------------------------------------------------------*/
+
+.header-bottom {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header .wishlist-link,
+.header-account a,
+.header-cart,
+.header-currency-switcher .current-currency {
+    color: #444;
+}
+
+/*--------------------------------------------------------------
+## Button Styles
+--------------------------------------------------------------*/
+
+.btn-primary,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce-page .wc-block-components-button {
+    color: #fff !important;
+    background-color: #f53b3b;
+    border-color: #f53b3b;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce-page .wc-block-components-button:hover {
+    background-color: #d0112b;
+    border-color: #d0112b;
+}
+
+/*--------------------------------------------------------------
+## Product Styles
+--------------------------------------------------------------*/
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+    color: #f53b3b;
+}
+
+.onsale {
+    background-color: #f53b3b;
+}
+
+/*--------------------------------------------------------------
+## Footer Styles
+--------------------------------------------------------------*/
+.payment-methods-footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.payment-methods-footer p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.payment-icons img {
+    width: 40px;
+    margin: 0 5px;
+}
+
+/*--------------------------------------------------------------
+## Responsive Styles
+--------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+    .header-main .site-logo-wrap {
+        max-width: 150px;
+    }
+
+    .header .search-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .main-slider .slide .caption h2 {
+        font-size: 24px !important;
+    }
+}
